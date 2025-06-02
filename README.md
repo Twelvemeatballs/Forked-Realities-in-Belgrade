@@ -1,6 +1,5 @@
 # Forked-Realities-in-Belgrade
-# Forked-Realities-in-Belgrade
-<<<<<<< Updated upstream
+
 A writing experiment in public. Drafts, fiction, and stray narrative anomalies created live by Twelve Meatballs at ETHBelgrade Hackathon.
 
 Mirrored on forked-realities.eth
