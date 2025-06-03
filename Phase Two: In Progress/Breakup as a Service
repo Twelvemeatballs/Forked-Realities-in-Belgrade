@@ -19,7 +19,7 @@ Runs in a Trusted Execution Environment for user privacy.
 npm install && npm run start
 ```
 
-
+```
 📁 breakup-as-a-service/
 ├── 📄 README.md
 ├── 📦 package.json
@@ -39,6 +39,8 @@ npm install && npm run start
 ├── 📁 docs/
 │   └── 📊 breakup-flowchart.png
 └── 📝 deployment-notes.md
+```
+
 
 📦 package.json
 
@@ -46,8 +48,7 @@ npm install && npm run start
 {
   “name”: “breakup-as-a-service”,
   “version”: “0.1.0”,
-  “description”: “Scaffolding for the template I wish someone had given me six months ago.
-”,
+  “description”: “Scaffolding for the template I wish someone had given me six months ago.”,
   “author”: “someone who should have seen this coming”,
   “license”: “MIT”,
   “repository”: “https://github.com/definitely-not-stalking/breakup-as-a-service”
@@ -122,11 +123,13 @@ export function useResponse() {
 ```
 
 components/Closure.vue
+```
 <template>
   <div class=“apology”>
-    <!— This doesn’t compile because neither did we —>
+    <!-- This doesn’t compile because neither did we -->
   </div>
 </template>
+```
 
 
 src/components/ClosureButton.jsx
