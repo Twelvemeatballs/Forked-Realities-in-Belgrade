@@ -1,4 +1,5 @@
-App designed for dream recordings: help people process their dreams. Deals with anxiety dreams, late at the airport and can’t find gate, have not studied for exam which starts NOW, naked walking through the office. 
+## What is Dreamsync
+    App designed for dream recordings: help people process their dreams. Deals with anxiety dreams, late at the airport and can’t find gate, have not studied for exam which starts NOW, naked walking through the office. 
 
 Not specifically designed for repeating nightmares or unresolved trauma 
 
@@ -7,8 +8,14 @@ User with extreme PTSD starts to use.
     * symbolism
     * conflict
     * treats the images as metaphorical
+ 
 
-Figure in doorway repeats. Blood never dries. Each nightmare ends in an explosion.
+    Figure in doorway repeats. Blood never dries. Each nightmare ends in an explosion.
+
+    Cloud-based system for dream analysis and support
+        Data never seen by humans
+    Users record sleep data (EEG, voice mumbling, biometric patterns) and dream.  
+    Analyzes symbolic patterns. 
 
 TEE: isolated and untrained
     tries to help
@@ -32,6 +39,11 @@ User experience
             healing?
             interpretation?
             selling data?
+            social layer
+                Share result: How imaginative are your dreams?
+                Like “Which Hogwarts character are you?” 
+                
+         Normal users are curious public, aspiring lucid dreamers, creatives searching dreams for inspiration 
             
             
             
