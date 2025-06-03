@@ -4,7 +4,7 @@ A writing experiment in public. Drafts, fiction, and stray narrative anomalies c
 
 Mirrored on forked-realities.eth
 
-Event timing
-Starts                 11:00 03.06.2025
-Interrupted by Rakija  19:00 03.06.2025
-Ends                   21:00 04.06.2025
+Event timing. 
+Starts                 11:00 03.06.2025  
+Interrupted by Rakija  19:00 03.06.2025  
+Ends                   21:00 04.06.2025  
