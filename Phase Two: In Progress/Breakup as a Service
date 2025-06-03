@@ -17,6 +17,7 @@ Runs in a Trusted Execution Environment for user privacy.
 
 ```bash
 npm install && npm run start
+```
 
 
 📁 breakup-as-a-service/
@@ -28,7 +29,7 @@ npm install && npm run start
 │   │   ├── 💔 FinalApology.vue
 │   │   └── 👻 WhatWeHad.vue
 │   ├── 📁 hooks/
-│   │   └── 🤗 useReassurance.ts
+│   │   └── 🤗 useResponse.ts
 │   ├── 📁 utils/
 │   │   ├── 🚫 boundaries.js
 │   │   ├── 👻 ghosting.js
@@ -49,56 +50,21 @@ npm install && npm run start
 ”,
   “author”: “someone who should have seen this coming”,
   “license”: “MIT”,
-  “dependencies”: {
-    “react”: “^18.0.0”,
-    “axios”: “^1.0.0”,
-    “moment”: “^2.29.0”,
-    “lodash”: “^4.17.0”
-  },
-  “scripts”: {
-    “start”: “react-scripts start”,
-    “build”: “react-scripts build”, 
-    “test”: “jest —watchAll=false”,
-    “regret”: “echo ‘too late now’”
-  },
-  “repository”: {
-    “type”: “git”,
-    “url”: “https://github.com/definitely-not-stalking/breakup-as-a-service”
-  }
+  “repository”: “https://github.com/definitely-not-stalking/breakup-as-a-service”
 }
 ```
 
-
-
-
-You might see a few warnings. They’re not fatal. Not like the things you said last March.
-
-This app pulls default values from /src/utils/boundaries.js. If those aren’t respected, the layout may collapse. 
-
-You can override the default apology by editing /hooks/useReassurance.ts but it won’t be sincere.
-
-
-
-
-/utils/ghosting.js
-
-/components/WhatWeHad.vue
-
 src/constants/you.js
-
+```
 export const mattered = true;
-
 export const alwaysTextedBack = false;
-
 export const favoriteSong = “unavailable.mp3”; // you said it didn’t matter
-
 export const timezone = “somewhere else”;
-
 export const closureRequested = false;
+```
 
-
-/src/utils/boundaries.js
-
+src/utils/boundaries.js
+```
 export const hardBoundaries = {
   emotional: true,
   physical: obviously,
@@ -111,7 +77,14 @@ export const softBoundaries = {
   insideJokes: “off-limits”,
 };
 
+// TODO: Filter duplicates
+// TODO: Remove anything tagged “Barcelona”
+// TODO: Stop looking at these
+```
+
+
 src/utils/overshare.js
+```
 export function overshare(payload) {
   return {
     message: payload,
@@ -122,22 +95,24 @@ export function overshare(payload) {
 }
 
 // Warning: do not call this at 2am
+```
 
-// TODO: Filter duplicates
-// TODO: Remove anything tagged “Barcelona”
-// TODO: Stop looking at these
-
-
-
-/hooks/useReassurance.ts
-export function useReassurance() {
-  const [message, setMessage] = useState(“I will always love you.”);
-  // You used to say that to me. I thought you meant it.
+hooks/useResponse.ts
+```
+export function useResponse() {
+  // For when she realizes her mistake and comes back
+  const responses = [
+    “It’s too late.”,
+    “I’ve moved on.”, 
+    “You chose this.”
+  ];
+  
+  const [message, setMessage] = useState(responses[0]);
   return message;
 }
+```
 
-/docs/breakup-flowchart.png
-/docs/breakup-flowchart.png  
+docs/breakup-flowchart.png  
 “breakup-flowchart.png (552 KB) – last modified: 3:47 AM”
 
 🟢 Talk like adults → 🔴 trigger loop  
@@ -145,17 +120,16 @@ export function useReassurance() {
 🔴 closure requested → ⛔️ backend unavailable  
 🟢 acceptance → 🔁 shared playlist opens on shuffle
 
-/components/FinalApology.vue
+components/Closure.vue
 <template>
   <div class=“apology”>
     <!— This doesn’t compile because neither did we —>
-    <p>I’m sorry. I’m sorry that it didn’t work out. I’m sorry you didn’t trust me enough to keep trying. No, honestly, I’m sorry I ever met you. </p>
   </div>
 </template>
 
-import React from “react”;
 
 src/components/ClosureButton.jsx
+```
 export default function ClosureButton({ onClick }) {
   return (
     <button
@@ -170,10 +144,15 @@ export default function ClosureButton({ onClick }) {
     </button>
   );
 }
+```
+
+/components/WhatWeHad.vue
+```
+```
 
 ## Deployment
 
-Deployment failed. The logs show error after error but the app stays live. Some things refuse to compile cleanly. Some things ship broken and keep running anyway. 
+Deployment failed. The logs show error after error but the app stays live. Some things refuse to compile cleanly. 
 
 I pushed it to main.  
 I pushed it to Product Hunt.  
