@@ -1,0 +1,187 @@
+📁 README.md
+# Breakup-as-a-Service
+
+A secure, modular interface for managing emotional closure.  
+Generated with iApp Generator v2.9  
+Runs in a Trusted Execution Environment for user privacy.  
+
+## Features
+
+- Stateless journaling interface
+- Enclave-protected emotional processing
+- One-click closure (beta)
+- Guided regret flow
+- Adaptive content generation (texts you’ll never send)
+
+## Installation
+
+```bash
+npm install && npm run start
+
+
+📁 breakup-as-a-service/
+├── 📄 README.md
+├── 📦 package.json
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── 🔘 ClosureButton.jsx
+│   │   ├── 💔 FinalApology.vue
+│   │   └── 👻 WhatWeHad.vue
+│   ├── 📁 hooks/
+│   │   └── 🤗 useReassurance.ts
+│   ├── 📁 utils/
+│   │   ├── 🚫 boundaries.js
+│   │   ├── 👻 ghosting.js
+│   │   └── 📢 overshare.js
+│   └── 📁 constants/
+│       └── 💘 you.js
+├── 📁 docs/
+│   └── 📊 breakup-flowchart.png
+└── 📝 deployment-notes.md
+
+📦 package.json
+
+```json
+{
+  “name”: “breakup-as-a-service”,
+  “version”: “0.1.0”,
+  “description”: “Scaffolding for the template I wish someone had given me six months ago.
+”,
+  “author”: “someone who should have seen this coming”,
+  “license”: “MIT”,
+  “dependencies”: {
+    “react”: “^18.0.0”,
+    “axios”: “^1.0.0”,
+    “moment”: “^2.29.0”,
+    “lodash”: “^4.17.0”
+  },
+  “scripts”: {
+    “start”: “react-scripts start”,
+    “build”: “react-scripts build”, 
+    “test”: “jest —watchAll=false”,
+    “regret”: “echo ‘too late now’”
+  },
+  “repository”: {
+    “type”: “git”,
+    “url”: “https://github.com/definitely-not-stalking/breakup-as-a-service”
+  }
+}
+```
+
+
+
+
+You might see a few warnings. They’re not fatal. Not like the things you said last March.
+
+This app pulls default values from /src/utils/boundaries.js. If those aren’t respected, the layout may collapse. 
+
+You can override the default apology by editing /hooks/useReassurance.ts but it won’t be sincere.
+
+
+
+
+/utils/ghosting.js
+
+/components/WhatWeHad.vue
+
+src/constants/you.js
+
+export const mattered = true;
+
+export const alwaysTextedBack = false;
+
+export const favoriteSong = “unavailable.mp3”; // you said it didn’t matter
+
+export const timezone = “somewhere else”;
+
+export const closureRequested = false;
+
+
+/src/utils/boundaries.js
+
+export const hardBoundaries = {
+  emotional: true,
+  physical: obviously,
+  conversational: “no_contact_means_no_contact”,
+};
+
+export const softBoundaries = {
+  mutualFriends: “avoid”,
+  publicEvents: “apparently also no”,
+  insideJokes: “off-limits”,
+};
+
+src/utils/overshare.js
+export function overshare(payload) {
+  return {
+    message: payload,
+    visible: true,
+    optional: false,
+    timestamp: new Date().toISOString(),
+  };
+}
+
+// Warning: do not call this at 2am
+
+// TODO: Filter duplicates
+// TODO: Remove anything tagged “Barcelona”
+// TODO: Stop looking at these
+
+
+
+/hooks/useReassurance.ts
+export function useReassurance() {
+  const [message, setMessage] = useState(“I will always love you.”);
+  // You used to say that to me. I thought you meant it.
+  return message;
+}
+
+/docs/breakup-flowchart.png
+/docs/breakup-flowchart.png  
+“breakup-flowchart.png (552 KB) – last modified: 3:47 AM”
+
+🟢 Talk like adults → 🔴 trigger loop  
+🔴 ask for space → 🟢 violate space  
+🔴 closure requested → ⛔️ backend unavailable  
+🟢 acceptance → 🔁 shared playlist opens on shuffle
+
+/components/FinalApology.vue
+<template>
+  <div class=“apology”>
+    <!— This doesn’t compile because neither did we —>
+    <p>I’m sorry. I’m sorry that it didn’t work out. I’m sorry you didn’t trust me enough to keep trying. No, honestly, I’m sorry I ever met you. </p>
+  </div>
+</template>
+
+import React from “react”;
+
+src/components/ClosureButton.jsx
+export default function ClosureButton({ onClick }) {
+  return (
+    <button
+      className=“closure-button”
+      onClick={() => {
+        // I was ready to let go.
+        // You just never showed up.
+        onClick();
+      }}
+    >
+      Close Session
+    </button>
+  );
+}
+
+## Deployment
+
+Deployment failed. The logs show error after error but the app stays live. Some things refuse to compile cleanly. Some things ship broken and keep running anyway. 
+
+I pushed it to main.  
+I pushed it to Product Hunt.  
+I pushed it into your periphery.
+
+
+This project is now live. Open source. MIT licensed. 
+
+
+You said I never shipped anything.  
+So I did.

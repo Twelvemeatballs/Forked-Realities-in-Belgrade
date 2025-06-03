@@ -7,37 +7,15 @@ Whole thing starts as “I’m working on my startup” and degenerates into a c
 
 Runs in a Trusted Execution Environment to allow for secure, private, emotional data processing.
 
-You might see a few warnings. They’re not fatal. Not like the things you said last March.
-
-This app pulls default values from /src/utils/boundaries.js. If those aren’t respected, the layout may collapse. 
-
-You can override the default apology by editing /hooks/useReassurance.ts but it won’t be sincere.
 
 Not quite strong enough but that’s the idea: over time he (or she?) gets more and more bitter and more and more direct.
 
-Has to clearly degenerate from someone who thinks they are building the service they wish they had to imaginging their wild success and the ex seeing it (not stated, just inferred) to lashing out at their ex. 
+Unreliable narrator
+
+Has to clearly degenerate from someone who thinks they are building the service they wish they had to imagining their wild success and the ex seeing it (not stated, just inferred) to lashing out at their ex. 
 
 
-Examples
+Written during a hackathon, which underscores his unravelling. Trying to create a service that is private and uses TEE but the heartbreak isn’t in the enclave, it’s in the code. 
 
-/src/utils/boundaries.js
-export const hardBoundaries = {
-  emotional: true,
-  physical: obviously,
-  conversational: no_contact_means_no_contact,
-}
 
-/hooks/useReassurance.ts
-export function useReassurance() {
-  const [message, setMessage] = useState(“You’re the best thing that ever happened to me.”);
-  // I used to say that to you. I meant it.
-  return message;
-}
 
-/components/FinalApology.vue
-<template>
-  <div class=“apology”>
-    <!— This doesn’t compile because neither did we —>
-    <p>I’m sorry. I’m sorry that it didn’t work out. I’m sorry you didn’t trust me enough to keep trying. No, honestly, I’m sorry I ever met you. </p>
-  </div>
-</template>
