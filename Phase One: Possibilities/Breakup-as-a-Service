@@ -18,3 +18,26 @@ Not quite strong enough but that’s the idea: over time he (or she?) gets more 
 Has to clearly degenerate from someone who thinks they are building the service they wish they had to imaginging their wild success and the ex seeing it (not stated, just inferred) to lashing out at their ex. 
 
 
+Examples
+
+/src/utils/boundaries.js
+export const hardBoundaries = {
+  emotional: true,
+  physical: obviously,
+  conversational: no_contact_means_no_contact,
+}
+
+/hooks/useReassurance.ts
+export function useReassurance() {
+  const [message, setMessage] = useState(“You’re the best thing that ever happened to me.”);
+  // I used to say that to you. I meant it.
+  return message;
+}
+
+/components/FinalApology.vue
+<template>
+  <div class=“apology”>
+    <!— This doesn’t compile because neither did we —>
+    <p>I’m sorry. I’m sorry that it didn’t work out. I’m sorry you didn’t trust me enough to keep trying. No, honestly, I’m sorry I ever met you. </p>
+  </div>
+</template>
