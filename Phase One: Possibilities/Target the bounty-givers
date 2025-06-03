@@ -1,0 +1,29 @@
+
+## iExec
+    **Data**
+            **DataProtector** is an end‑to‑end encryption tool that protects data in a TEE. 
+            **iApp Generator** is a standalone CLI tool that scaffolds, tests, and deploys SGX/TDX‑ready iExec applications capable of processing Protected Data in a confidential and private environment.
+            **[Confidential AI](https://www.iex.ec/confidential-ai)** is not a tool but a merger between confidential computing and AI.
+            Challenge: Build the most innovative iApp and find a new confidential data processing use case.
+                We expect builders to pick a use‑case where sensitive data must be processed privately with or without AI (for example a KYC passport check, encrypted medical record, or biometric liveness proof)
+                The dataset has to be protected and shared (and can be monetized) through Data Protector, then computed inside an iExec application that you scaffold and deploy with iApp Generator.
+                Sensitive data, private processing, person remains in control of their data, AI/automation interactions
+           iExec makes TEEs usable by real humans: access to secure bubble     
+ 
+      **Ideas** 
+            Person renting access to their data
+            A story generated using iApp Generator? 
+            
+            
+            
+            
+    
+Flare
+Quex
+XsollaZK
+Polkadot
+OriginTrail
+Oasis
+Neon EVM
+Chainlink
+Civic
