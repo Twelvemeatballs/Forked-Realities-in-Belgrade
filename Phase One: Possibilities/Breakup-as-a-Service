@@ -1,0 +1,7 @@
+Narrator uses iApp Generator to build (generate?) an app for “managing emotional closure”.
+Scaffolding created by the app: template to be personalised.
+Selling point: Runs in a TEE to allow for secure, private, emotinal data processing.
+Enclave: secure portion of memory isolated from the rest of the system.
+Comments get messy fast.
+
+
