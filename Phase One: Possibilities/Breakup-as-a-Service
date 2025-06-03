@@ -1,7 +1,20 @@
 Narrator uses iApp Generator to build (generate?) an app for “managing emotional closure”.
 Scaffolding created by the app: template to be personalised.
-Selling point: Runs in a TEE to allow for secure, private, emotinal data processing.
+Selling point: Runs in a TEE to allow for secure, private, emotional data processing.
 Enclave: secure portion of memory isolated from the rest of the system.
 Comments get messy fast.
+Whole thing starts as “I’m working on my startup” and degenerates into a clear letter-to-my-ex
+
+Runs in a Trusted Execution Environment to allow for secure, private, emotional data processing.
+
+You might see a few warnings. They’re not fatal. Not like the things you said last March.
+
+This app pulls default values from /src/utils/boundaries.js. If those aren’t respected, the layout may collapse. 
+
+You can override the default apology by editing /hooks/useReassurance.ts but it won’t be sincere.
+
+Not quite strong enough but that’s the idea: over time he (or she?) gets more and more bitter and more and more direct.
+
+Has to clearly degenerate from someone who thinks they are building the service they wish they had to imaginging their wild success and the ex seeing it (not stated, just inferred) to lashing out at their ex. 
 
 
