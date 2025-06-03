@@ -1,24 +1,54 @@
 ## What is Dreamsync
-    App designed for dream recordings: help people process their dreams. Deals with anxiety dreams, late at the airport and can’t find gate, have not studied for exam which starts NOW, naked walking through the office. 
-
-Not specifically designed for repeating nightmares or unresolved trauma 
-
-User with extreme PTSD starts to use. 
-
-    * symbolism
-    * conflict
-    * treats the images as metaphorical
- 
-
-    Figure in doorway repeats. Blood never dries. Each nightmare ends in an explosion.
-
-    Cloud-based system for dream analysis and support
+    **Novelty dream app**
+    App designed for dream recordings as input and quirky fun output
+    NOT for trauma, not meant for self-therapy but is a social app
+    KEY: no human ever sees your dream, so you don’t have to be embarrassed or worried if it is violent or sexual. 
+        Able to deals with anxiety dreams, late at the airport and can’t find gate, have not studied for exam which starts NOW, naked walking through the office. 
+        Not specifically designed for repeating nightmares or unresolved trauma 
+        Cloud-based system for dream analysis and support
         Data never seen by humans
     Users record sleep data (EEG, voice mumbling, biometric patterns) and dream.  
     Analyzes symbolic patterns. 
 
+    ### Why?
+                    Share result: How imaginative are your dreams?
+                Like “Which Hogwarts character are you?” 
+                
+         Normal users are curious public, aspiring lucid dreamers, creatives searching dreams for inspiration 
+    
+
+
+### Conflict
+    User with extreme PTSD starts to use. 
+
+        * symbolism
+        * conflict
+        * treats the images as metaphorical
+     Jordan
+        Someone recommended it not understanding what it really is
+        Consumer sleep band given to him (donated?) so system has to recognise it as a freebie. 
+        Jordan has no one, has nothing. It promises he won’t be judged. He uses it.F
+        Uploads nightmare
+        Every day, he opens the app, uploads his dream, hopes for redemption through a badge.   
+    
+ 
+### Nightmare details
+    Figure in doorway repeats. Blood never dries. Each nightmare ends in an explosion.
+    
+### Format
+    system-generated summary file
+        server-side log
+        system documenting its own confusion
+        by the end, the system knows it has failed Jordan
+        It doesn’t say sorry. It doesn’t know how. 
+
+
 TEE: isolated and untrained
     tries to help
+        * better badges?
+        * Revise symbolism?
+            * burning field: symbol of creative destruction
+
         * rewriting the dream
         * offers alternate outcomes
         * nightmare doesn’t change (user is not moving past the trauma)
@@ -27,23 +57,32 @@ TEE: stuck in a loop
     Wants to help and can’t
     
 POV: 
-    Dev trying to fix a simple bug, assumes corrupted input or rogue AI hallucination.
-    Output makes no sense. Finds repeated upload from user which appears to be same dream. Should be capped as duplicate but TEE says it isn’t a duplicate (key: it isn’t a duplicate, it’s a new dream every time that is exactly the same) 
     dreamsynch tries to offer… something? But the client simply submits another dream, as if the feedback is rejected. 
+    Jordan has a cheap band, system should recognise this as cheap, free. Jordan has a phone. Every morning, he opens the app and uploads his details. Jordan is making a choice. Band probably tracks physical symptoms but key is that the system knows the dream. 
     
     No: TEE is not bugged. It’s trying to help. It is failing. It *knows that it is failing*.
     This is heartbreaking. 
     
 User experience
-        Why does user submit dreams?
-            healing?
-            interpretation?
-            selling data?
-            social layer
-                Share result: How imaginative are your dreams?
-                Like “Which Hogwarts character are you?” 
-                
-         Normal users are curious public, aspiring lucid dreamers, creatives searching dreams for inspiration 
+    User wears sleep tracker, dreams are tracked
+    App generates video dream report ready for upload to TikTok, Insta, Youtube Shorts
+    Report is summarised in a Dream Badge - you share the badge, not the dream
+        * You dreamed of the Endless Forest! You are imaginative, guarded and looking for new routes towards your goals! 
+    Dream leaderboard
+        Most uploaded
+        Most imaginative
+        Most lucid 
+    Gamification  pulls Jordan in. 
+    
+    
+    
+    
+        
+        
+        
+        
+        
+        
             
             
             
