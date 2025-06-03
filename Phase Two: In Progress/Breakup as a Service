@@ -66,8 +66,8 @@ export const closureRequested = false;
 src/utils/boundaries.js
 ```
 export const hardBoundaries = {
-  emotional: true,
-  physical: obviously,
+  emotional: TRUE,
+  physical: OBVIOUSLY,
   conversational: “no_contact_means_no_contact”,
 };
 
@@ -161,7 +161,5 @@ I pushed it into your periphery.
 
 
 This project is now live. Open source. MIT licensed. 
-
-
 You said I never shipped anything.  
 So I did.
