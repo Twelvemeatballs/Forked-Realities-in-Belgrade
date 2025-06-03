@@ -19,7 +19,6 @@ Runs in a Trusted Execution Environment for user privacy.
 npm install && npm run start
 ```
 
-```
 📁 breakup-as-a-service/
 ├── 📄 README.md
 ├── 📦 package.json
@@ -39,7 +38,7 @@ npm install && npm run start
 ├── 📁 docs/
 │   └── 📊 breakup-flowchart.png
 └── 📝 deployment-notes.md
-```
+
 
 
 📦 package.json
