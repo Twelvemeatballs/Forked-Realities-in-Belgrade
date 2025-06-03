@@ -3,3 +3,36 @@ App designed for dream recordings: help people process their dreams. Deals with 
 Not specifically designed for repeating nightmares or unresolved trauma 
 
 User with extreme PTSD starts to use. 
+
+    * symbolism
+    * conflict
+    * treats the images as metaphorical
+
+Figure in doorway repeats. Blood never dries. Each nightmare ends in an explosion.
+
+TEE: isolated and untrained
+    tries to help
+        * rewriting the dream
+        * offers alternate outcomes
+        * nightmare doesn’t change (user is not moving past the trauma)
+        
+TEE: stuck in a loop
+    Wants to help and can’t
+    
+POV: 
+    Dev trying to fix a simple bug, assumes corrupted input or rogue AI hallucination.
+    Output makes no sense. Finds repeated upload from user which appears to be same dream. Should be capped as duplicate but TEE says it isn’t a duplicate (key: it isn’t a duplicate, it’s a new dream every time that is exactly the same) 
+    dreamsynch tries to offer… something? But the client simply submits another dream, as if the feedback is rejected. 
+    
+    No: TEE is not bugged. It’s trying to help. It is failing. It *knows that it is failing*.
+    This is heartbreaking. 
+    
+User experience
+        Why does user submit dreams?
+            healing?
+            interpretation?
+            selling data?
+            
+            
+            
+         
