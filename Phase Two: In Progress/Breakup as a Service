@@ -11,7 +11,11 @@ Runs in a Trusted Execution Environment for user privacy.
 - Enclave-protected emotional processing
 - One-click closure (beta)
 - Guided regret flow
-- Adaptive content generation (texts you’ll never send)
+- Adaptive content generation
+
+## Security
+- TEE-secured private data handling
+All emotional data processed within a Trusted Execution Environment (TEE). Your personal information remains encrypted and isolated from external access. Complete privacy guaranteed.
 
 ## Installation
 
