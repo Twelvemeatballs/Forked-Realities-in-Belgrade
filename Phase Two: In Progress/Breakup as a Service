@@ -23,6 +23,7 @@ All emotional data processed within a Trusted Execution Environment (TEE). Your 
 npm install && npm run start
 ```
 
+```
 📁 breakup-as-a-service/
 ├── 📄 README.md
 ├── 📦 package.json
@@ -42,6 +43,8 @@ npm install && npm run start
 ├── 📁 docs/
 │   └── 📊 breakup-flowchart.png
 └── 📝 deployment-notes.md
+```
+
 
 
 
@@ -153,7 +156,7 @@ export default function ClosureButton({ onClick }) {
 }
 ```
 
-/components/WhatWeHad.vue
+src/components/WhatWeHad.vue
 ```
 ```
 
