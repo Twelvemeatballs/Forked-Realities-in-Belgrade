@@ -1,5 +1,7 @@
 **DreamSync TEE Process Log****Session ID: 7439-LITE-JORDANM** **Device: dreamME Lite (Student Trial - EXPIRED)**  
-  - DEVICE: DreamME Lite (expired promotional release, firmware v1.02 (unregistered))  
+Trusted Execution Environment: Enclave Mode (Outbound Comms Disabled)
+  - DEVICE: DreamME Lite (expired promotional release, firmware v1.02 (unregistered))
+  ‘   
   - USER ID: 284173e (Free Tier)  
   - DISPLAY NAME: JordanM  
   - RETENTION: 98.1% (212 uploads, 189 consecutive)  
@@ -21,7 +23,7 @@ SESSION EXCERPTS
     - BADGE GENERATED: Skyborn (“You are rising above what holds you down”)  
       - Pop-up: You’ve unlocked a 30-day streak!  
     - BADGE DELIVERY: SUCCESS  
-    - USER ENGAGMENT: Badge not downloaded  
+    - USER ENGAGEMENT: Badge not downloaded  
   - #117  
     - Repeated symbolism: rotor, metallic strain, thermal spike  
     - Auditory pattern sustained (~340 Hz), intermittent modulation
@@ -52,8 +54,10 @@ SESSION EXCERPTS
     - BADGE GENERATED Ash Phoenix (“You survived the fire. You’re ready to begin again.”)  
       - Pop-up: 📲 [Add to Highlight Reel]  
     - BADGE DELIVERY: SUCCESS  
-    - USER ENGAGMENT: Badge not downloaded  
-    - NOTE: System confidence decreasing  
+    - USER ENGAGEMENT: Badge not downloaded  
+    - SYSTEM CONFIDENCE: 43%
+    - ERRORÑ Trusted Execution Environment cannot initiate outbound signals.  
+
   - #188  
     - Rotor, Rope, Hands touching, Pilot vocalizations (“…too late, let go”)  
     - Engine vibration
@@ -67,7 +71,7 @@ SESSION EXCERPTS
     - BADGE GENERATED: Echo Reach (“You dared to reach. That’s what matters.”)  
     - Pop-up: Your subconscious is _really trying to tell you something!_  
     - BADGE DELIVERY: SUCCESS  
-    - USER ENGAGMENT: Badge not downloaded  
+    - USER ENGAGEMENT: Badge not downloaded  
   - #203  
     - INPUT PATTERNS  
       - Repeated Symbolism: Rotor, Rope, Fingers Touching, Pilot vocalisations
@@ -77,8 +81,7 @@ SESSION EXCERPTS
       - Olfactory markers: ozone, burning insulation, mineral smoke 
       - Light flicker, sun hitting dust.      
    - TEE ESCALATION BLOCKED: ISOLATION BREACH CONTAINED  
-    - ERROR: Cannot generate shareable content  
-    - BADGE GENERATION: Failed (
+    - BADGE GENERATION: Failed
     - Pop-up: We are still interpreting your dream: Please check back later for your Dream Badge  
     - SYSTEM CONFIDENCE: 17%  
   - #211  
