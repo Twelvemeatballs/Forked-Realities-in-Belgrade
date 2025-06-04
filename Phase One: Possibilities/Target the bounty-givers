@@ -5,24 +5,47 @@
             **iApp Generator** is a standalone CLI tool that scaffolds, tests, and deploys SGX/TDX‑ready iExec applications capable of processing Protected Data in a confidential and private environment.
             **[Confidential AI](https://www.iex.ec/confidential-ai)** is not a tool but a merger between confidential computing and AI.
             Challenge: Build the most innovative iApp and find a new confidential data processing use case.
-                We expect builders to pick a use‑case where sensitive data must be processed privately with or without AI (for example a KYC passport check, encrypted medical record, or biometric liveness proof)
-                The dataset has to be protected and shared (and can be monetized) through Data Protector, then computed inside an iExec application that you scaffold and deploy with iApp Generator.
-                Sensitive data, private processing, person remains in control of their data, AI/automation interactions
            iExec makes TEEs usable by real humans: access to secure bubble     
  
       **Ideas** 
             Person renting access to their data
             A story generated using iApp Generator? 
-            
-            
-            
-            
     
-Flare
-Quex
-XsollaZK
-Polkadot
-OriginTrail
+## Flare
+   **Data**
+   **Ideas**
+   
+## Quex
+   **Data**
+      data oracle + integrity. Decentralized identity and ZKPs
+   **Ideas**
+      AI-driven fact checker that you can’t gaslight.
+      Misinformation runs rampant: Quex is incorruptable. 
+      Gumshoe detective attempting reality-forensics to find out how reality changed
+      Decentralised legal courts
+      
+## XsollaZK
+   **Data**
+      ZK-powered player identity, wallets, NFTs and item ownership.
+      Digital assets across games (backpack on-chain)
+      
+   **Ideas**
+      Player accused of cheating, Xsolla ZK saves the day
+      Murder in a game leads to an airdrop. Real police get involved. 
+      
+      
+## Polkadot
+   **Data**
+      Multi-chain governance. 
+   **Ideas** 
+      Characters fork identity.Pol
+   
+## OriginTrail
+   **Data**
+      Decentralised Knowledge Graph (DKG) which structures and verifies data across various domains. Protection against hallucinations.
+    **Ideas**
+      Neat project by guy sitting by me! Do not subvert!
+           
 ## Oasis
    **Data**
             Layer 0/1 blockchain supporting scalable, privacy-preserving applications. ROFL and Sapphire
@@ -30,10 +53,26 @@ OriginTrail
                   Runtime Off-chain Logic
                         Trustless Oracles
    **Ideas**
-      …  
+      AI leaking secrets
+      AI *unable* to leak secrets 
                         
                         
 
-Neon EVM
-Chainlink
-Civic
+## Neon EVM
+   **Data**
+      Put EVM apps onto Solana
+   **Ideas**
+       
+
+## Chainlink
+   **Data**
+      Provides decentralised oracles. CCIP: Cross-Chain Interoperability Protocol. VRF: verifiable randomness. Smart contract needs data: use Chainlink.  
+
+## Civic
+   **Data**
+      Self-sovereign (decentralised) identity
+   **Ideas**
+      Memories fragmented across blockchains, CCIP routing oracle to reassemble. 
+      Refugee lacks documentation
+      
+      
