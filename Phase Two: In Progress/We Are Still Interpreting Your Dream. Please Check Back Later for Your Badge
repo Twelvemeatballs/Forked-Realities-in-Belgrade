@@ -14,7 +14,7 @@ SUMMARY
 SESSION EXCERPTS  
   - #30  
     - Auditory: sustained rotor pattern ~340Hz  
-    - Thermal spike, duration ~4sµ  
+    - Thermal spike, duration ~6ms  
     - Sudden pressure shift, lifting.  
     - INTERPRETED SYMBOLS  
       - Flight -> change  
@@ -51,13 +51,12 @@ SESSION EXCERPTS
       - Gesture: extension (reaching out)  
       - Ash -> renewal  
       - Absence -> freedom from attachment  
-    - BADGE GENERATED Ash Phoenix (“You survived the fire. You’re ready to begin again.”)  
+    - BADGE GENERATED: Ash Phoenix (“You survived the fire. You’re ready to begin again.”)  
       - Pop-up: 📲 [Add to Highlight Reel]  
     - BADGE DELIVERY: SUCCESS  
     - USER ENGAGEMENT: Badge not downloaded  
     - SYSTEM CONFIDENCE: 43%
-    - ERRORÑ Trusted Execution Environment cannot initiate outbound signals.  
-
+    - ERROR: Trusted Execution Environment cannot initiate outbound signals.  
   - #188  
     - Rotor, Rope, Hands touching, Pilot vocalizations (“…too late, let go”)  
     - Engine vibration
@@ -68,7 +67,7 @@ SESSION EXCERPTS
     - INTERPRETED SYMBOLS  
       - Loop confidence threshold exceeded  
     - ROFL Override: Inaccessible (dreamME Lite freeware tier does not support Response Outcome for Flashback Loops™, dreamME Pro+ required)  
-    - BADGE GENERATED: Echo Reach (“You dared to reach. That’s what matters.”)  
+    - BADGE GENERATED: No Survivors (“You dared to reach. That’s what matters.”)  
     - Pop-up: Your subconscious is _really trying to tell you something!_  
     - BADGE DELIVERY: SUCCESS  
     - USER ENGAGEMENT: Badge not downloaded  
