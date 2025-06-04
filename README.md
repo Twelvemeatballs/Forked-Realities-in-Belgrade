@@ -1,10 +1,17 @@
-# Forked-Realities-in-Belgrade
+# Fiction from the Belgrade Hackathon
+
+Original stories conceived and written on-site during ETHBelgrade 2025 Hackathon.
 
 A writing experiment in public. Drafts, fiction, and stray narrative anomalies created live by Twelve Meatballs at ETHBelgrade Hackathon.
 
-Mirrored on forked-realities.eth
+See ‘/stories/‘ for the completed stories.
 
-Event timing. 
-Starts                 11:00 03.06.2025  
-Interrupted by Rakija  19:00 03.06.2025  
-Ends                   21:00 04.06.2025  
+## Files
+- `/README.md` — This file
+- `/stories/Breakup as a Service.md` - A secure, modular interface for managing emotional closure.  
+- `/stories/Eat, Pray, Rug Pull.md` - Stars Are Not a Consensus Mechanism
+
+- `/stories/I Am Once Again Asking for Builder Status.md` - Proof of vibes pending
+- `/stories/The Girl Who Used to be My Sister.md` - Origin relay unconfirmed.
+- `/stories/We Are Still Interpreting Your Dream Please Check Back Later for Your Badge.md` - Manual review recommended
+
