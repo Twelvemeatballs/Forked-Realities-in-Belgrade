@@ -4,7 +4,7 @@ Original stories conceived and written on-site during ETHBelgrade 2025 Hackathon
 
 A writing experiment in public. Drafts, fiction, and stray narrative anomalies created live by Twelve Meatballs at ETHBelgrade Hackathon.
 
-See ‘/stories/‘ for the completed stories.
+See ‘/stories/‘ for the stories as completed during the Hackathon.
 
 ## Files
 - `/README.md` — This file
