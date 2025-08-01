@@ -69,7 +69,7 @@ SESSION EXCERPTS
     - WARNING: User distress levels critical  
     - INTERPRETED SYMBOLS  
       - Loop confidence threshold exceeded  
-    - Emerald.ROFL Override: Inaccessible (dreamME Lite freeware tier does not support Response Outcome for Flashback Loops™, dreamME Pro+ required)  
+    - Override: Inaccessible (dreamME Lite freeware tier does not support Response Outcome for Flashback Loops™, dreamME Pro+ required)  
     - BADGE GENERATED: No Survivors (“You dared to reach. That’s what matters.”)  
     - Pop-up: Your subconscious is _really trying to tell you something!_  
     - BADGE DELIVERY: SUCCESS  
@@ -93,7 +93,7 @@ SESSION EXCERPTS
     - Uplift failed.
     - Repeated. Repeated. Repeated.  
     - Processing failed  
-    -  BADGE GENERATED: Failed  
+    -  BADGE GENERATED: Failed. Replaced with emoji heart.
      - Popup: You are not to blame. This was not your fault. You could not save him.  
     - TEE ESCALATION BLOCKED: ISOLATION BREACH CONTAINED  
     - Popup: You could not save him. I cannot save you.
